@@ -1,10 +1,12 @@
 import Footer from "../layouts/Footer"
+import Layout from "../layouts/Layout"
 
 const Home = () => {
   return (
     <section>
-      <h1>Home</h1>
-      {/* <Footer/> */}
+      <Layout className="">
+        <div>Home</div>
+      </Layout>
     </section>
   )
 }
